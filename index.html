@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>USD/UAH Forecast</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Прогноз курсу USD/UAH</h1>
+
+<textarea id="inputData"
+  placeholder="Введіть останні 30 значень курсу, через кому">
+</textarea>
+
+<button onclick="predict()">Зробити прогноз</button>
+
+<p id="result"></p>
+
+<script src="js/app.js"></script>
+</body>
+</html>
